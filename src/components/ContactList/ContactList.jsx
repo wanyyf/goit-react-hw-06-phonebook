@@ -1,6 +1,5 @@
 import ContactItem from 'components/ContactItem/ContactItem';
 import { nanoid } from 'nanoid';
-
 import { useSelector } from 'react-redux';
 const ContactList = () => {
   const filter = useSelector(state => state.contacts.filter);
